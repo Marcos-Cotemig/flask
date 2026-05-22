@@ -1,0 +1,47 @@
+body{
+    padding: 100px;
+    font-family: Arial, sans-serif;
+    display: flex;
+
+
+}
+
+.menu {
+    width: 200px;
+    background-color: #77b2ff;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.menu nav ul li a{
+    text-decoration: none;
+}
+
+.menu nav ul{
+    list-style: none;
+}
+
+.conteudo {
+    flex: 1;
+    padding: 20px;
+}
+
+
+.menu ul {
+    list-style-type: nome;
+    padding: 0;
+}
+
+
+.menu ul li a {
+    text-decoration: nome;
+    color: white;
+    display: block;
+    padding: 10px 0;
+
+}
